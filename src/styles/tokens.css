@@ -1,0 +1,42 @@
+/*
+ * Design tokens. Light theme only, by choice.
+ * Orange is the brand accent (active navigation, primary action, stat icons).
+ * Violet is for data (bars). Green, amber and red only ever mean status.
+ */
+:root{
+  --shell:#F6F6F5;
+  --panel:#FFFFFF;
+  --card:#FFFFFF;
+  --line:#EEEEEC;
+  --line-2:#E4E4E2;
+  --line-3:#D4D4D2;
+  --soft:#F7F7F6;
+  --hover:#EFEFEE;
+  --fg:#161616;
+  --fg-2:#383838;
+  --muted:#6F6F6F;
+  --faint:#A5A5A3;
+
+  --accent:#F2612D;
+  --accent-ink:#D9501F;
+  --accent-soft:#FFEEE6;
+  --data:#7C6CF0;
+  --data-soft:#EEEBFD;
+  --data-soft-2:#E5E1FC;
+
+  --on:#1F9D4C;
+  --on-tag:#EDF8F1;
+  --risk:#D9900E;
+  --risk-tag:#FFF6E5;
+  --behind:#E5484D;
+  --behind-tag:#FDEEEE;
+
+  --blue:var(--data);
+  --blue-soft:var(--data-soft);
+
+  --shadow-sm:0 1px 2px rgba(20,20,20,.05);
+  --shadow-md:0 1px 2px rgba(20,20,20,.04),0 6px 16px -8px rgba(20,20,20,.10);
+  --shadow-lg:0 1px 2px rgba(20,20,20,.05),0 24px 64px -16px rgba(20,20,20,.20);
+  --font:'Geist',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+  color-scheme:light;
+}
